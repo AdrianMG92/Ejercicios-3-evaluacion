@@ -17,9 +17,15 @@ public class Practica76 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /**
+         * Declaro valores
+         */
         char selec;
         float valor1, valor2, result;
         
+        /**
+         * inicializo los objetos del menu y las operaciones
+         */
         Menu p1 = new Menu();
         Operaciones p2 = new Operaciones();
         p1.mostrar();
@@ -28,7 +34,9 @@ public class Practica76 {
         selec=p1.leer();
         Scanner s=new Scanner(System.in);
         
-        
+        /**
+         * Hago el switch para cada operacion de la calculadora
+         */
         switch (selec){
             case 's':
                 System.out.println("¿Qué números deseas sumar?");

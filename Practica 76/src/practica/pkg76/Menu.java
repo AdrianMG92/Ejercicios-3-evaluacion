@@ -13,6 +13,9 @@ import java.util.Scanner;
  */
 public class Menu {
 
+    /**
+     * Hago el menu
+     */
 public void mostrar(){
     System.out.println("s=suma");
     System.out.println("r=resta");
@@ -20,6 +23,10 @@ public void mostrar(){
     System.out.println("d=división");
     System.out.println("x=resto");
 }
+/**
+ * Devuelvo la eleccion del menu
+ * @return la eleccion del menu
+ */
 public char leer(){
     Scanner teclado=new Scanner (System.in);
     System.out.println("¿Qué operación deseas hacer?");
